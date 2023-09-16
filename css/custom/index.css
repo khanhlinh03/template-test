@@ -1,0 +1,590 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+/* header */
+header {
+  background-color: #ffffff;
+}
+
+.group {
+  display: flex;
+  line-height: 28px;
+  align-items: center;
+  position: relative;
+  /* max-width: 400px; */
+}
+
+.input {
+  height: 40px;
+  line-height: 28px;
+  padding: 0 1rem;
+  width: 90%;
+  padding-left: 2.5rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  outline: none;
+  background-color: #d9e8d8;
+  color: #0d0c22;
+  box-shadow: 0 0 5px #c1d9bf, 0 0 0 10px #f5f5f5eb;
+  transition: 0.3s ease;
+}
+
+.input::placeholder {
+  color: #777;
+}
+
+.icon {
+  position: absolute;
+  left: 1rem;
+  fill: #777;
+  width: 1rem;
+  height: 1rem;
+}
+
+/* giỏ hàng */
+#bottone5 {
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+#bottone5:hover,
+#bottone5:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+#bottone5:hover {
+  transform: translateY(-1px);
+}
+
+#bottone5:active {
+  background-color: #f0f0f1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+.nav-link {
+  text-transform: uppercase;
+  color: black;
+  font-size: 17px;
+}
+
+/* .nav-item :hover a {
+  color: #f16c52;
+} */
+/* dang ky */
+.dn {
+  text-decoration: none;
+  color: black;
+}
+
+.menu ul:hover li {
+  filter: blur(2px);
+}
+.menu ul li:hover {
+  filter: blur(0px);
+}
+/* main */
+main {
+  background-color: #f5f5f5;
+}
+.img-slide {
+  height: 400px;
+}
+.card-header {
+  background-color: #f16c52;
+  color: white;
+}
+/* footer */
+.myfooter ul li a {
+  text-decoration: none;
+  color: #0d0c22;
+}
+.myfooter ul li {
+  list-style: none;
+}
+.nav-links {
+  color: white;
+  font-size: 15px;
+  padding-left: 20px;
+  text-decoration: none;
+}
+/* login */
+.form {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.rows {
+  background: white;
+  border-radius: 30px;
+  box-shadow: 12px 12px 22px grey;
+}
+.img-fluid {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 30px;
+}
+.btn1 {
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.btn1:hover {
+  background: white;
+  border: 1px solid;
+  color: black;
+}
+.a-sign {
+  text-decoration: none;
+}
+.a-sign:hover {
+  text-decoration: underline;
+}
+
+/* sign */
+
+.img-sign {
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
+}
+
+.a-sign {
+  text-decoration: none;
+}
+.a-sign:hover {
+  text-decoration: underline;
+}
+/* gioithieu */
+.section-title h4:after {
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  right: 0;
+  height: 4px;
+  width: 80px;
+  background: #7fad39;
+  content: "";
+  margin: 0 auto;
+}
+.section-title h4 {
+  color: #1c1c1c;
+  font-weight: 700;
+  position: relative;
+}
+i {
+  color: #f16c52;
+}
+.a-tintuc {
+  text-decoration: none;
+  color: #0d0c22;
+}
+.a-tintuc :hover {
+  color: #f16c52;
+}
+/* tin tức */
+.card-body a {
+  text-decoration: none;
+  width: 54px;
+  height: 23px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+  color: grey;
+}
+.card-body a:hover {
+  color: #f16c52;
+}
+.img-tintuc {
+  text-align: center;
+}
+.title :hover {
+  color: #f16c52;
+}
+.title {
+  text-decoration: none;
+  color: black;
+}
+.tintuc {
+  color: grey;
+}
+/* details */
+.details {
+  border-radius: 5px 5px 5px 5px grey;
+}
+/* sản phẩm */
+.san-pham {
+  display: flex;
+  height: 20rem;
+  gap: 1rem;
+}
+.san-pham > div {
+  flex: 1;
+  border-radius: 1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  transition: all 0l8s cubic-bezier(0.25, 0.4, 0.45, 1.4);
+}
+.san-pham > div:hover {
+  flex: 2;
+}
+
+.gallery {
+  display: grid;
+  border-radius: 20%;
+}
+
+.gallery img {
+  padding: 20px;
+  filter: drop-shadow(1px 1px 2px rgb(203, 201, 201));
+  grid-area: 1/1;
+  width: 270px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 0;
+  transition: transform 0.2s, clip-path 0.3s, z-index 0.3s;
+}
+
+.gallery img:hover {
+  z-index: 1;
+  transition: transform 0.2s, clip-path 0.3s, z-index 0s;
+}
+.gallery > img:nth-child(1) {
+  clip-path: polygon(50% 48%, 98% 0, 98% 0, 98% 0, 2% 0, 2% 0, 2% 0);
+}
+
+.gallery > img:nth-child(2) {
+  clip-path: polygon(
+    52% 50%,
+    100% 98%,
+    100% 98%,
+    100% 98%,
+    100% 2%,
+    100% 2%,
+    100% 2%
+  );
+}
+
+.gallery > img:nth-child(3) {
+  clip-path: polygon(
+    50% 52%,
+    98% 100%,
+    98% 100%,
+    98% 100%,
+    2% 100%,
+    2% 100%,
+    2% 100%
+  );
+}
+
+.gallery > img:nth-child(4) {
+  clip-path: polygon(48% 50%, 0% 98%, 0% 98%, 0% 98%, 0% 2%, 0% 2%, 0% 2%);
+}
+
+.gallery > img:nth-child(1):hover {
+  clip-path: polygon(
+    50% 52%,
+    50% 100%,
+    100% 100%,
+    100% 0,
+    0 0,
+    0 100%,
+    50% 100%
+  );
+}
+
+.gallery > img:nth-child(2):hover {
+  clip-path: polygon(52% 52%, 0 50%, 0 100%, 100% 100%, 100% 0, 0 0, 0 50%);
+}
+
+.gallery > img:nth-child(3):hover {
+  clip-path: polygon(50% 52%, 50% 0, 100% 0, 100% 100%, 0 100%, 0 0, 50% 0);
+}
+
+.gallery > img:nth-child(4):hover {
+  clip-path: polygon(
+    48% 50%,
+    100% 50%,
+    100% 100%,
+    0 100%,
+    0 0,
+    100% 0,
+    100% 50%
+  );
+}
+/* hover ảnh */
+.anh a:hover img {
+  transform: scale(0.9);
+  opacity: 0.6;
+}
+.anh a img {
+  transition: all 0.3s ease-in-out;
+}
+/* quanly */
+.form-controls {
+  position: relative;
+  margin: 20px 0 40px;
+  width: 190px;
+}
+
+.form-controls input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px grey solid;
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+  color: grey;
+}
+
+.form-controls input:focus,
+.form-controls input:valid {
+  outline: 0;
+  border-bottom-color: #f16c52;
+}
+
+.form-controls label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  pointer-events: none;
+}
+
+.form-controls label span {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  color: grey;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-controls input:focus + label span,
+.form-controls input:valid + label span {
+  color: #f16c52;
+  transform: translateY(-30px);
+}
+/* liên hệ */
+
+.section-header {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-header h2 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  color: #7f7f90;
+  text-transform: uppercase;
+  font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.section-header p {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 400;
+  font-family: "Amatic SC", sans-serif;
+}
+
+.section-header p span {
+  color: #ce1212;
+}
+
+/* search sp */
+/* From uiverse.io by @satyamchaudharydev */
+/* removing default style of button */
+
+.forms button {
+  border: none;
+  background: none;
+  color: #8b8ba7;
+}
+/* styling of whole input container */
+.forms {
+  --timing: 0.3s;
+  --width-of-input: 200px;
+  --height-of-input: 40px;
+  --border-height: 2px;
+  --input-bg: #fff;
+  --border-color: #2f2ee9;
+  --border-radius: 30px;
+  --after-border-radius: 1px;
+  position: relative;
+  width: var(--width-of-input);
+  height: var(--height-of-input);
+  display: flex;
+  align-items: center;
+  padding-inline: 0.8em;
+  border-radius: var(--border-radius);
+  transition: border-radius 0.5s ease;
+  background: var(--input-bg, #fff);
+}
+/* styling of Input */
+.inputs {
+  font-size: 0.9rem;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  padding-inline: 0.5em;
+  padding-block: 0.7em;
+  border: none;
+}
+/* styling of animated border */
+.forms:before {
+  content: "";
+  position: absolute;
+  background: var(--border-color);
+  transform: scaleX(0);
+  transform-origin: center;
+  width: 100%;
+  height: var(--border-height);
+  left: 0;
+  bottom: 0;
+  border-radius: 1px;
+  transition: transform var(--timing) ease;
+}
+/* Hover on Input */
+.forms:focus-within {
+  border-radius: var(--after-border-radius);
+}
+
+.inputs:focus {
+  outline: none;
+}
+/* here is code of animated border */
+.forms:focus-within:before {
+  transform: scale(1);
+}
+/* styling of close button */
+/* == you can click the close button to remove text == */
+.resets {
+  border: none;
+  background: none;
+  opacity: 0;
+  visibility: hidden;
+}
+/* close button shown when typing */
+.inputs:not(:placeholder-shown) ~ .resets {
+  opacity: 1;
+  visibility: visible;
+}
+/* sizing svg icons */
+.forms svg {
+  width: 17px;
+  margin-top: 3px;
+}
+
+/* Form thanh toán */
+.add {
+  max-width: 700px;
+  width: 100%;
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+}
+
+.user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+.user-details .input-box {
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+.user-details .input-box .details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.user-details .input-box input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+  border-color: #9b59b6;
+}
+
+.buttons {
+  height: 45px;
+  margin: 45px 0;
+}
+
+.buttons button {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.buttons button:hover {
+  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+
+@media (max-width: 584px) {
+  .user-details .input-box {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .user-details {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .user-details::-webkit-scrollbar {
+    width: 0;
+  }
+}

@@ -1,0 +1,137 @@
+<section class="container">
+  <a type="button" class="btn btn-light mt-4 mb-3 position-relative float-end">
+    <i class="fa-solid fa-cart-shopping"></i>
+    <span
+      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+    >
+      {{ countItemsInCart() }}
+      <span class="visually-hidden">unread messages</span>
+    </span>
+  </a>
+  <div class="col-xs-12 col-md-12">
+    <table class="table table-bordered" style="background-color: white">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Hình ảnh</th>
+          <th scope="col">Tên sản phẩm</th>
+          <th scope="col">Số lương</th>
+          <th scope="col">Đơn giá</th>
+          <th scope="col">Thành tiền</th>
+          <th scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="gh in danhSachGioHang">
+          <th scope="row">{{$index+1}}</th>
+          <td><img src="{{gh.img}}" alt="" width="150px" /></td>
+          <td>{{gh.ten}}</td>
+          <td>
+            <input
+              type="number"
+              ng-model="gh.soLuong"
+              min="1"
+              ng-change="updateSL(gh)"
+            />
+          </td>
+          <td>{{gh.gia_giam | number:0}}đ</td>
+          <td>{{gh.gia_giam * gh.soLuong | number:0}}đ</td>
+          <td>
+            <a
+              id="bottone5"
+              href="#gio-hang/delete/{{gh.id}}"
+              class="btn"
+              ng-click="deleteGH($event, $index)"
+              style="background-color: #f16c52; color: white"
+            >
+              <i class="fa-solid fa-trash text-light"></i>
+            </a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="tong">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item d-flex justify-content-between">
+          <h5>Tổng tiền: {{ sum() | number:0}}đ</h5>
+          <a
+            id="bottone5"
+            href="#sp-damua"
+            class="btn"
+            style="background-color: #f16c52; color: white"
+          >
+            Sản phẩm đã mua
+          </a>
+        </li>
+      </ul>
+    </div>
+    <a
+      id="bottone5"
+      class="btn mt-4"
+      ng-click="checkout()"
+      style="background-color: #f16c52; color: white"
+    >
+      Thanh Toán
+    </a>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <div class="" ng-show="formThanhToan">
+            <h1><span class="header-content">Thông Tin Thanh Toán</span></h1>
+
+            <form>
+              <div class="row">
+                <div class="col-sm-12 col-md-3"></div>
+                <div class="add">
+                  <div class="user-details">
+                    <div class="input-box">
+                      <span class="details">Fullname</span>
+                      <input
+                        type="text"
+                        id="name"
+                        ng-model="pay.fullname"
+                        placeholder="Enter your full name:"
+                      />
+                    </div>
+                    <div class="input-box">
+                      <span class="details">Email</span>
+                      <input
+                        type="email"
+                        id="email"
+                        ng-model="pay.email"
+                        placeholder="Enter your email:"
+                      />
+                    </div>
+                    <div class="input-box">
+                      <span class="details">Your Phone:</span>
+                      <input
+                        type="text"
+                        id="phone"
+                        ng-model="pay.phone"
+                        placeholder="Enter your phone:"
+                      />
+                    </div>
+                    <div class="input-box">
+                      <span class="details">Address</span>
+                      <input
+                        type="text"
+                        id="address"
+                        ng-model="pay.address"
+                        placeholder="Enter your address:"
+                      />
+                    </div>
+                  </div>
+                  <div class="buttons">
+                    <button ng-click="thanhtoan()">Thanh toán</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+  </div>
+</section>

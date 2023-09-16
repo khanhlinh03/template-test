@@ -1,0 +1,82 @@
+<section class="form my-4 mx-5">
+  <div class="container">
+    <div class="row rows no-gutters">
+      <div class="col-lg-5">
+        <img
+          src="/img/tintuc.jpg"
+          class="img-fluid img-sign pt-4 mt-5 pb-4"
+          alt=""
+        />
+      </div>
+      <div class="col-lg-7 px-5 pt-5">
+        <h1 class="font-weight-bold py-3">Sign In</h1>
+        <h4>Sign into your account</h4>
+        <div class="form">
+          <form action="">
+            <div class="form-row">
+              <div class="col-lg-7">
+                <input
+                  required
+                  type="text"
+                  placeholder="Username"
+                  class="form-control my-3"
+                  ng-model="formAccount.username"
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-lg-7">
+                <input
+                  required
+                  type="email"
+                  placeholder="Email - Address"
+                  class="form-control my-3"
+                  ng-model="formAccount.email"
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-lg-7">
+                <input
+                  required
+                  type="password"
+                  placeholder="Password"
+                  class="form-control"
+                  ng-model="formAccount.password"
+                />
+              </div>
+            </div>
+            <div class="form-row pt-3">
+              <div class="col-lg-7">
+                <input
+                  required
+                  type="password"
+                  placeholder="ConfirmPassword"
+                  class="form-control"
+                  ng-model="formAccount.confirmPassword"
+                />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="col-lg-7">
+                <button
+                  type="button"
+                  ng-click="addAccount($event)"
+                  class="btn1 mt-3 mb-5"
+                >
+                  Sign In
+                </button>
+              </div>
+            </div>
+            <p class="text pb-20">
+              Have an account?
+              <a class="a-sign" href="#dang-nhap">Log in</a>
+            </p>
+            <!-- <p><a href="./pages/trang-chu.html">Quay Lại Trang Chủ</a></p> -->
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

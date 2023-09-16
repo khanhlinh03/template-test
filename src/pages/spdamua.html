@@ -1,0 +1,38 @@
+<section class="container">
+  <div class="col-xs-12 col-md-12">
+    <table class="table table-bordered" style="background-color: white">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Hình ảnh</th>
+          <th scope="col">Tên sản phẩm</th>
+          <th scope="col">Đơn giá</th>
+          <th scope="col">Số lương</th>
+          <th scope="col">Thành tiền</th>
+          <th scope="col">Xóa</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="product in pays">
+          <th scope="row">{{$index+1}}</th>
+          <td><img src="{{product.img}}" alt="" width="150px" /></td>
+          <td>{{product.ten}}</td>
+          <td>{{product.gia_giam | number:0}}đ</td>
+          <td>{{product.soLuong}}</td>
+          <td>{{product.gia_giam * product.soLuong | number:0}}đ</td>
+          <td>
+            <a
+              id="bottone5"
+              href="#gio-hang"
+              class="btn"
+              style="background-color: #f16c52; color: white"
+            >
+              <i class="fa-solid fa-bag-shopping text-light me-2"></i>
+              Mua Lại
+            </a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>

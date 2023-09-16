@@ -1,0 +1,202 @@
+<section>
+  <div class="container">
+    <div class="san-pham">
+      <div style="background-image: url(/img/cam.jpg)"></div>
+      <div style="background-image: url(/img/dao.jpg)"></div>
+      <div style="background-image: url(/img/nho.jpg)"></div>
+      <div style="background-image: url(/img/le.jpg)"></div>
+      <div style="background-image: url(/img/tao.jpg)"></div>
+      <div style="background-image: url(/img/vai.jpg)"></div>
+    </div>
+  </div>
+</section>
+<section class="container">
+  <div class="row mt-5">
+    <div class="col-md-3">
+      <div class="list-group">
+        <div class="card-header p-3">
+          <b class="p-3">Thể Loại</b>
+        </div>
+        <button
+          class="list-group-item list-group-item-action text-secondary"
+          aria-current="true"
+          ng-click="filterSanPhamByCategory(null)"
+        >
+          All
+        </button>
+        <button
+          class="list-group-item list-group-item-action text-secondary"
+          aria-current="true"
+          ng-repeat="category in danhSachCategory "
+          ng-click="filterSanPhamByCategory(category)"
+        >
+          {{category.ten}}
+        </button>
+      </div>
+
+      <div class="gallery mt-5">
+        <img src="/img/cam.jpg" alt="One" />
+        <img src="/img/nho.jpg" alt="Two" />
+        <img src="/img/dao.jpg" alt="Three" />
+        <img src="/img/dau.jpg" alt="Four" />
+      </div>
+    </div>
+    <div class="col-md-9">
+      <div class="">
+        <div class="card-header d-flex align-items-center p-1">
+          <ul class="nav mt-3 me-2">
+            <li class="nav-item">
+              <a
+                class="btn nav-links"
+                style="margin-top: -8px"
+                ng-click="sapXepGia('ten')"
+                ><b>Mặc định</b></a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="btn nav-links"
+                style="margin-top: -8px"
+                ng-click="sapXepGia('-gia_giam')"
+                ><b>Giá giảm</b></a
+              >
+            </li>
+            <li class="nav-item me-5">
+              <a
+                class="btn nav-links"
+                style="margin-top: -8px"
+                ng-click="sapXepGia('gia_giam')"
+                ><b>Giá tăng</b></a
+              >
+            </li>
+            <li class="nav-item" style="margin-top: -10px">
+              <form class="forms">
+                <button ng-click="search()">
+                  <svg
+                    width="17"
+                    height="16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    aria-labelledby="search"
+                  >
+                    <path
+                      d="M7.667 12.667A5.333 5.333 0 107.667 2a5.333 5.333 0 000 10.667zM14.334 14l-2.9-2.9"
+                      stroke="currentColor"
+                      stroke-width="1.333"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </button>
+                <input
+                  class="inputs"
+                  placeholder="Search name..."
+                  type="text"
+                  ng-model="searchTerm"
+                />
+                <button class="resets" type="reset">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6 18L18 6M6 6l12 12"
+                    ></path>
+                  </svg>
+                </button>
+              </form>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <div class="row">
+              <div
+                class="col-xs-4 col-sm-4 col-md-4"
+                ng-repeat="sp in filteredProduct | orderBy:orderType | limitTo: 9 : -10"
+                style="
+                  border-right: 1px solid #dee2e6;
+                  border-bottom: 1px solid #dee2e6;
+                "
+              >
+                <div class="anh">
+                  <a href="#/details/{{sp.id}}"
+                    ><img src="{{sp.img}}" class="card-img-top" alt="..."
+                  /></a>
+                  <div class="card-body">
+                    <p class="card-text" style="text-align: center">
+                      <b style="color: #f16c52">{{sp.gia_giam | number:0}}đ</b>
+                      <del style="color: grey">{{sp.gia_goc | number:0}}đ</del>
+                    </p>
+
+                    <p style="text-align: center; color: grey">{{sp.ten}}</p>
+                    <p style="text-align: center">
+                      <a
+                        id="bottone5"
+                        class="btn"
+                        ng-click="addToCart(sp)"
+                        style="background-color: #f16c52; color: white"
+                      >
+                        <i class="fa-solid fa-bag-shopping text-light me-2"></i>
+                        ADD CART
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="container">
+  <div class="spk mt-5 mb-5">
+    <div class="card-header p-3">
+      <b class="p-3">Các sản phẩm khác</b>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">
+        <div class="row">
+          <div
+            class="col-xs-4 col-sm-4 col-md-4"
+            ng-repeat="sp in danhSachSP | limitTo:3"
+          >
+            <div class="anh">
+              <a href="#detail"
+                ><img src="{{sp.img}}" class="card-img-top" alt="..." />
+              </a>
+              <div class="card-body">
+                <p class="card-text" style="text-align: center">
+                  <b style="color: #f16c52">{{sp.gia_giam | number:0}}đ</b>
+                  <del style="color: grey">{{sp.gia_goc | number:0}}đ</del>
+                </p>
+                <p style="text-align: center; color: grey">{{sp.ten}}</p>
+                <p style="text-align: center">
+                  <a
+                    id="bottone5"
+                    class="btn"
+                    ng-click="addToCart(sp)"
+                    style="background-color: #f16c52; color: white"
+                  >
+                    <i class="fa-solid fa-bag-shopping text-light me-2"></i>
+                    ADD CART
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>

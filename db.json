@@ -1,0 +1,355 @@
+{
+  "spHot": [
+    {
+      "id": 1,
+      "img": "https://bizweb.dktcdn.net/thumb/1024x1024/100/068/166/products/4.jpg?v=1458638411903",
+      "gia_goc": 340000,
+      "gia_giam": 240000,
+      "ten": "Cam Navel ruột vàng"
+    },
+    {
+      "id": 2,
+      "img": "https://bizweb.dktcdn.net/thumb/large/100/068/166/products/13.jpg?v=1458639408253",
+      "gia_goc": 480000,
+      "gia_giam": 350000,
+      "ten": "Dâu tây Đà Lạt"
+    }
+  ],
+  "danhSachSP": [
+    {
+      "ten": "Cam Navel ruột vàng",
+      "img": "https://bizweb.dktcdn.net/thumb/1024x1024/100/068/166/products/4.jpg?v=1458638411903",
+      "category": "Hoa quả trong nước",
+      "gia_goc": 340000,
+      "gia_giam": 240000,
+      "id": 1,
+      "tilte": "Nguồn gốc: Úc Khối lượng: 10kg hộp Cam Navel ruột vàng Úc vỏ vang, ruột màu vàng đậm, vị thanh ngọt, không hạt, mọng nước. Thường dùng ... "
+    },
+    {
+      "id": 2,
+      "img": "https://bizweb.dktcdn.net/thumb/large/100/068/166/products/13.jpg?v=1458639408253",
+      "gia_goc": 480000,
+      "gia_giam": 350000,
+      "ten": "Dâu tây Đà Lạt",
+      "category": "Hoa quả trong nước",
+      "tilte": "Nguồn gốc: Úc Khối lượng: 10kg hộp Cam Navel ruột vàng Úc vỏ vang, ruột màu vàng đậm, vị thanh ngọt, không hạt, mọng nước. Thường dùng ... "
+    },
+    {
+      "id": 3,
+      "img": "https://bizweb.dktcdn.net/thumb/large/100/068/166/products/11.jpg?v=1458639139167",
+      "gia_goc": 220000,
+      "gia_giam": 160000,
+      "ten": "Táo xanh Mỹ",
+      "category": "Hoa quả nhập khẩu",
+      "tilte": "Nguồn gốc: Úc Khối lượng: 10kg hộp Cam Navel ruột vàng Úc vỏ vang, ruột màu vàng đậm, vị thanh ngọt, không hạt, mọng nước. Thường dùng ... "
+    },
+    {
+      "id": 4,
+      "img": "https://bizweb.dktcdn.net/thumb/large/100/068/166/products/anh-nho.jpg?v=1458633453323",
+      "gia_goc": 265000,
+      "gia_giam": 235000,
+      "ten": "Nho mỹ nhập khẩu",
+      "category": "Hoa quả nhập khẩu",
+      "tilte": "Nguồn gốc: Úc Khối lượng: 10kg hộp Cam Navel ruột vàng Úc vỏ vang, ruột màu vàng đậm, vị thanh ngọt, không hạt, mọng nước. Thường dùng ... "
+    },
+    {
+      "id": 5,
+      "img": "https://bizweb.dktcdn.net/thumb/large/100/068/166/products/7-99f392ed-6393-4c64-a2c8-829cfdad62ca-1361870e-e0d2-4a79-9906-699096ddb2b2.jpg?v=1458636366707",
+      "gia_goc": 480000,
+      "gia_giam": 380000,
+      "ten": "Hạt điều trắng",
+      "category": "Hoa quả trong nước",
+      "tilte": "Nguồn gốc: Úc Khối lượng: 10kg hộp Cam Navel ruột vàng Úc vỏ vang, ruột màu vàng đậm, vị thanh ngọt, không hạt, mọng nước. Thường dùng ... "
+    },
+    {
+      "id": 6,
+      "img": "https://bizweb.dktcdn.net/thumb/1024x1024/100/068/166/products/6-76ccb75f-cbc8-4a3d-b0b6-9f5af3c22db0.jpg?v=1458641289220",
+      "gia_goc": 79000,
+      "gia_giam": 40000,
+      "ten": "Vải Thanh Hà",
+      "category": "Hoa quả trong nước",
+      "tilte": "Nguồn gốc: Úc Khối lượng: 10kg hộp Cam Navel ruột vàng Úc vỏ vang, ruột màu vàng đậm, vị thanh ngọt, không hạt, mọng nước. Thường dùng ... "
+    },
+    {
+      "ten": "Hạt hạnh nhân",
+      "img": "https://bizweb.dktcdn.net/thumb/large/100/068/166/products/12-4db5143d-68ef-4e55-938e-e056be8dbfc0.jpg?v=1458635488473",
+      "category": "Các loại hạt",
+      "gia_goc": 330000,
+      "gia_giam": 330000,
+      "id": 7
+    },
+    {
+      "ten": "Hành tây đặc biệt",
+      "img": "https://bizweb.dktcdn.net/thumb/large/100/068/166/products/16.jpg?v=1458634992303",
+      "category": "Rau củ",
+      "gia_goc": 55000,
+      "gia_giam": 55000,
+      "id": 8
+    },
+    {
+      "ten": "Hạt điều khô",
+      "img": "https://bizweb.dktcdn.net/thumb/large/100/068/166/products/2.jpg?v=1458635628210",
+      "category": "Các loại hạt",
+      "gia_goc": 280000,
+      "gia_giam": 280000,
+      "id": 9
+    },
+    {
+      "id": 10,
+      "img": "https://bizweb.dktcdn.net/thumb/large/100/068/166/products/5.jpg?v=1458639580163",
+      "gia_goc": 39000,
+      "gia_giam": 31000,
+      "ten": "Đào đỏ Mỹ",
+      "category": "Hoa quả nhập khẩu",
+      "tilte": "Nguồn gốc: Úc Khối lượng: 10kg hộp Cam Navel ruột vàng Úc vỏ vang, ruột màu vàng đậm, vị thanh ngọt, không hạt, mọng nước. Thường dùng ... "
+    },
+    {
+      "ten": "Bánh Hamburger",
+      "img": "https://bizweb.dktcdn.net/thumb/large/100/068/166/products/6.jpg?v=1458805693133",
+      "category": "Đồ ăn nhẹ",
+      "gia_goc": 35000,
+      "gia_giam": 30000,
+      "id": 11
+    },
+    {
+      "ten": "Cupcake bạc hà",
+      "img": "https://bizweb.dktcdn.net/thumb/large/100/068/166/products/4.png?v=1458805791557",
+      "category": "Đồ ăn nhẹ",
+      "gia_goc": 74998,
+      "gia_giam": 70000,
+      "id": 12
+    },
+    {
+      "ten": "Bánh mứt kem",
+      "img": "https://bizweb.dktcdn.net/thumb/large/100/068/166/products/8.jpg?v=1458633412720",
+      "category": "Đồ ăn nhẹ",
+      "gia_goc": 65000,
+      "gia_giam": 60000,
+      "id": 13
+    },
+    {
+      "ten": "hành",
+      "img": "https://bizweb.dktcdn.net/thumb/large/100/068/166/products/4.png?v=1458805791557",
+      "category": "Các loại hạt",
+      "gia_goc": 150000,
+      "gia_giam": 100000,
+      "id": 14
+    }
+  ],
+  "tinTuc": [
+    {
+      "id": 1,
+      "img": "tintuc.jpg",
+      "tilte": "CÁCH CẮM HOA TƯƠI LÂU CHỊ EM NÊN BIẾT",
+      "moTa": "Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content..."
+    },
+    {
+      "id": 2,
+      "img": "tintuc2.jpg",
+      "tilte": "CÁCH LÀM BÁNH DÁN NHÂN ĐẬU XANH NGON",
+      "moTa": "Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content..."
+    },
+    {
+      "id": 3,
+      "img": "tintuc3.jpg",
+      "tilte": "CÔNG DỤNG CỦA CHANH NGÂM MẬT ONG CHỮA HO HIỆU QUẢ",
+      "moTa": "Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content..."
+    }
+  ],
+  "gioiThieu": [
+    {
+      "id": 1,
+      "tilte": "GIỚI THIỆU CHUNG",
+      "moTa": "Trái cây nhập khẩu cũng là nguồn vitamin và các khoáng chất dồi dào, mang đến nhiều lợi ích về sức khỏe cho con người. Điển hình như cam Cara, táo nhập khẩu… với hàm lượng vitamin A, C, E… và khoáng chất dồi dào, tăng sức đề kháng cho cơ thể, hỗ trợ tiêu hóa, tim mạch và cải thiện làn da."
+    },
+    {
+      "id": 2,
+      "tilte": "CÁC THƯƠNG HIỆU",
+      "moTa": "Klever Fruits là một thương hiệu trái cây nhập khẩu uy tín và được tin tưởng tại Việt Nam được thành lập từ năm 2009. Thương hiệu đã nhanh chóng trở thành một trong những nhà cung cấp trái cây nhập khẩu hàng đầu với hệ thống 53 cửa hàng được phân bố rộng khắp trên địa bàn Hà Nội và Hồ Chí Minh, thỏa mãn nhu cầu sử dụng trái cây sạch của khách hàng."
+    },
+    {
+      "id": 3,
+      "tilte": "TẠI SAO NÊN CHỌN Klever Fruits",
+      "moTa": "Klever Fruits chọn lựa các loại trái cây nhập khẩu chất lượng cao từ các quốc gia như Mỹ, Úc, Hàn Quốc, Nhật Bản, Chile, New Zealand và các nước Châu Âu. Trái cây được chọn lựa cẩn thận và qua các quy trình kiểm tra chất lượng nghiêm ngặt trước khi đưa ra thị trường."
+    },
+    {
+      "id": 4,
+      "tilte": "THÀNH TÍCH",
+      "moTa": "Với nhiều năm kinh nghiệm trong lĩnh vực trái cây nhập khẩu, Klever Fruits đã tạo được sự uy tín và được tin tưởng bởi nhiều khách hàng. Đội ngũ nhân viên chuyên nghiệp, tận tâm và chu đáo trong việc phục vụ khách hàng. Thương hiệu này cũng cam kết giao hàng đúng thời gian và đảm bảo chất lượng sản phẩm."
+    },
+    {
+      "id": 5,
+      "tilte": "HOẠT ĐỘNG SẢN XUẤT VÀ KINH DOANH",
+      "moTa": "Thương hiệu Klever Fruits cam kết mang đến những sản phẩm tươi ngon và chất lượng nhất. Bạn sẽ cảm thấy hài lòng bởi dịch vụ giao hàng nhanh chóng, tiết kiệm thời gian, chỉ cần một chiếc smartphone để đặt hàng, mọi chuyện còn lại cứ để Klever lo."
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "ten": "Đồ ăn nhẹ"
+    },
+    {
+      "id": 2,
+      "ten": "Hoa quả nhập khẩu"
+    },
+    {
+      "id": 3,
+      "ten": "Hoa quả trong nước"
+    },
+    {
+      "ten": "Rau củ",
+      "id": 4
+    },
+    {
+      "ten": "Các loại hạt",
+      "id": 5
+    }
+  ],
+  "gioHang": [
+    {
+      "ten": "Cupcake bạc hà",
+      "img": "https://bizweb.dktcdn.net/thumb/large/100/068/166/products/4.png?v=1458805791557",
+      "category": "Đồ ăn nhẹ",
+      "gia_goc": 74998,
+      "gia_giam": 70000,
+      "id": 12,
+      "soLuong": 1
+    },
+    {
+      "id": 7,
+      "img": "https://bizweb.dktcdn.net/thumb/large/100/068/166/products/12-4db5143d-68ef-4e55-938e-e056be8dbfc0.jpg?v=1458635488473",
+      "gia_goc": 330000,
+      "gia_giam": 330000,
+      "ten": "Hạt hạnh nhân",
+      "category": "Đồ ăn nhẹ",
+      "tilte": "Nguồn gốc: Úc Khối lượng: 10kg hộp Cam Navel ruột vàng Úc vỏ vang, ruột màu vàng đậm, vị thanh ngọt, không hạt, mọng nước. Thường dùng ... ",
+      "soLuong": 1
+    },
+    {
+      "id": 2,
+      "img": "https://bizweb.dktcdn.net/thumb/large/100/068/166/products/13.jpg?v=1458639408253",
+      "gia_goc": 480000,
+      "gia_giam": 350000,
+      "ten": "Dâu tây Đà Lạt",
+      "category": "Hoa quả trong nước",
+      "tilte": "Nguồn gốc: Úc Khối lượng: 10kg hộp Cam Navel ruột vàng Úc vỏ vang, ruột màu vàng đậm, vị thanh ngọt, không hạt, mọng nước. Thường dùng ... ",
+      "soLuong": 2
+    },
+    {
+      "ten": "Cam Navel ruột vàng",
+      "img": "https://bizweb.dktcdn.net/thumb/1024x1024/100/068/166/products/4.jpg?v=1458638411903",
+      "category": "Hoa quả trong nước",
+      "gia_goc": 340000,
+      "gia_giam": 240000,
+      "id": 1,
+      "tilte": "Nguồn gốc: Úc Khối lượng: 10kg hộp Cam Navel ruột vàng Úc vỏ vang, ruột màu vàng đậm, vị thanh ngọt, không hạt, mọng nước. Thường dùng ... ",
+      "soLuong": 1
+    }
+  ],
+  "hoaDon": [
+    {
+      "pay": {
+        "fullname": "Nguyễn Linh",
+        "email": "linhntkph26829@fpt.edu.vn",
+        "phone": "0979386056",
+        "address": "hoa binh"
+      },
+      "danhSachGioHang": [
+        {
+          "id": 8,
+          "img": "https://bizweb.dktcdn.net/thumb/large/100/068/166/products/16.jpg?v=1458634992303",
+          "gia_goc": 55000,
+          "gia_giam": 55000,
+          "ten": "Hành tây đặc biệt",
+          "category": "Đồ ăn nhẹ",
+          "tilte": "Nguồn gốc: Úc Khối lượng: 10kg hộp Cam Navel ruột vàng Úc vỏ vang, ruột màu vàng đậm, vị thanh ngọt, không hạt, mọng nước. Thường dùng ... ",
+          "soLuong": 1
+        },
+        {
+          "id": 9,
+          "img": "https://bizweb.dktcdn.net/thumb/large/100/068/166/products/2.jpg?v=1458635628210",
+          "gia_goc": 280000,
+          "gia_giam": 280000,
+          "ten": "Hạt điều khô",
+          "category": "Đồ ăn nhẹ",
+          "tilte": "Nguồn gốc: Úc Khối lượng: 10kg hộp Cam Navel ruột vàng Úc vỏ vang, ruột màu vàng đậm, vị thanh ngọt, không hạt, mọng nước. Thường dùng ... ",
+          "soLuong": 4
+        }
+      ],
+      "id": 1
+    },
+    {
+      "pay": {
+        "fullname": "linh",
+        "email": "fgh@gmail.com",
+        "phone": "0979386056",
+        "address": "hoa binh"
+      },
+      "danhSachGioHang": [
+        {
+          "ten": "Cupcake bạc hà",
+          "img": "https://bizweb.dktcdn.net/thumb/large/100/068/166/products/4.png?v=1458805791557",
+          "category": "Đồ ăn nhẹ",
+          "gia_goc": 74998,
+          "gia_giam": 70000,
+          "id": 12,
+          "soLuong": 1
+        },
+        {
+          "id": 7,
+          "img": "https://bizweb.dktcdn.net/thumb/large/100/068/166/products/12-4db5143d-68ef-4e55-938e-e056be8dbfc0.jpg?v=1458635488473",
+          "gia_goc": 330000,
+          "gia_giam": 330000,
+          "ten": "Hạt hạnh nhân",
+          "category": "Đồ ăn nhẹ",
+          "tilte": "Nguồn gốc: Úc Khối lượng: 10kg hộp Cam Navel ruột vàng Úc vỏ vang, ruột màu vàng đậm, vị thanh ngọt, không hạt, mọng nước. Thường dùng ... ",
+          "soLuong": 1
+        },
+        {
+          "id": 2,
+          "img": "https://bizweb.dktcdn.net/thumb/large/100/068/166/products/13.jpg?v=1458639408253",
+          "gia_goc": 480000,
+          "gia_giam": 350000,
+          "ten": "Dâu tây Đà Lạt",
+          "category": "Hoa quả trong nước",
+          "tilte": "Nguồn gốc: Úc Khối lượng: 10kg hộp Cam Navel ruột vàng Úc vỏ vang, ruột màu vàng đậm, vị thanh ngọt, không hạt, mọng nước. Thường dùng ... ",
+          "soLuong": 2
+        },
+        {
+          "ten": "Cam Navel ruột vàng",
+          "img": "https://bizweb.dktcdn.net/thumb/1024x1024/100/068/166/products/4.jpg?v=1458638411903",
+          "category": "Hoa quả trong nước",
+          "gia_goc": 340000,
+          "gia_giam": 240000,
+          "id": 1,
+          "tilte": "Nguồn gốc: Úc Khối lượng: 10kg hộp Cam Navel ruột vàng Úc vỏ vang, ruột màu vàng đậm, vị thanh ngọt, không hạt, mọng nước. Thường dùng ... ",
+          "soLuong": 1
+        }
+      ],
+      "id": 2
+    }
+  ],
+  "account": [
+    {
+      "id": 1,
+      "username": "anhnt",
+      "password": "123",
+      "confirmPassword": "123",
+      "email": "anh@gmail.com"
+    },
+    {
+      "username": "linhntk",
+      "password": "456",
+      "confirmPassword": "456",
+      "email": "linhntk1711@gmail.com",
+      "id": 3
+    },
+    {
+      "username": "linh",
+      "password": "123",
+      "confirmPassword": "123",
+      "email": "linhntkph26829@fpt.edu.vn",
+      "id": 4
+    }
+  ]
+}

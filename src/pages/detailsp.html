@@ -1,0 +1,223 @@
+<section class="mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-3 col-md-3 mt-4">
+        <div class="">
+          <div class="card-header p-3">
+            <b class="p-3">Sản Phẩm Nổi Bật</b>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <div class="mb-3" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-md-5" style="text-align: center">
+                    <img
+                      src="/img/cam.jpg"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-7" style="text-align: center">
+                    <div class="card-body">
+                      <p style="color: grey" class="mt-3">
+                        Cam Navel ruột vàng
+                      </p>
+                      <p><b style="color: #f16c52">240.000đ</b></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="mb-3" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-md-5" style="text-align: center">
+                    <img
+                      src="/img/dau.jpg"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-7" style="text-align: center">
+                    <div class="card-body">
+                      <p style="color: grey" class="mt-3">Dâu tây Đà Lạt</p>
+                      <p><b style="color: #f16c52">350.000đ</b></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="mb-3" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-md-5" style="text-align: center">
+                    <img
+                      src="/img/tao.jpg"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-7" style="text-align: center">
+                    <div class="card-body">
+                      <p style="color: grey" class="mt-3">Táo xanh Mỹ</p>
+                      <p><b style="color: #f16c52">160.000đ</b></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="mb-3" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-md-5" style="text-align: center">
+                    <img
+                      src="/img/le.jpg"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-7" style="text-align: center">
+                    <div class="card-body">
+                      <p style="color: grey" class="mt-3">Lê Xanh Mỹ</p>
+                      <p><b style="color: #f16c52">230.000đ</b></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="mb-3" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-md-5" style="text-align: center">
+                    <img
+                      src="/img/dao.jpg"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-7" style="text-align: center">
+                    <div class="card-body">
+                      <p style="color: grey" class="mt-3">Đào đỏ Mỹ</p>
+                      <p><b style="color: #f16c52">31.000đ</b></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-9 col-md-9 mt-4">
+        <div class="deatils">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <div class="mb-3">
+                <div class="row g-0">
+                  <div class="col-md-6">
+                    <img
+                      src="{{sp.img}}"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-6 mt-2">
+                    <div class="card-body">
+                      <h5>{{sp.ten}}</h5>
+                      <p style="color: grey" class="mt-3">
+                        Tình trạng:
+                        <label style="color: #f16c52">Còn hàng</label>
+                      </p>
+                      <p style="color: grey">
+                        Mã sản phẩm:
+                        <label style="color: #f16c52">Đang cập nhật</label>
+                      </p>
+                      <h4 style="color: #f16c52">
+                        {{sp.gia_giam | number:0}}đ
+                      </h4>
+                      <del style="color: grey">{{sp.gia_goc | number:0}}đ</del>
+                      <p style="color: grey" class="mt-3">{{sp.tilte}}</p>
+                      <b style="color: grey">Số lượng:</b>
+
+                      <button type="button" class="btn btn-light">
+                        <i class="fa-solid fa-backward"></i>
+                      </button>
+                      <button type="button" class="btn btn-light">0</button>
+                      <button type="button" class="btn btn-light">
+                        <i class="fa-solid fa-forward"></i>
+                      </button>
+                      <button
+                        id="bottone5"
+                        class="ms-3"
+                        style="background-color: #f16c52; color: white"
+                        ng-click="addToCart(sp)"
+                      >
+                        Thêm giỏ hàng
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="mota mt-5">
+          <h4 style="color: #f16c52">Mô Tả</h4>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <div class="row">
+                <p class="mt-4">Đặc điểm: {{sp.tilte}}</p>
+                <div class="img-tintuc">
+                  <img src="{{sp.img}}" alt="" width="450px" />
+                </div>
+                <div class="mt-4">
+                  <p class="mt-3">
+                    <!-- Cam Úc có chứa nhiều Vitamin C, có tác dụng hồi phục sức
+                    khỏe nhanh, tốt cho da, chống lão hóa, tốt cho người ốm. Ăn
+                    cam Navel Úc thường xuyên sẽ giúp bảo vệ bạn khỏi mắc các
+                    bệnh truyền nhiễm do virus, giảm đáng kể nguy cơ mắc bệnh
+                    sỏi thận. Nếu bạn muốn tránh lượng calo dư thừa, hãy thêm
+                    cam Navel Úc vào chế độ dinh dưỡng hằng ngày của mình. -->
+                    {{sp.tilte}}
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="splq mt-5 mb-5">
+          <div class="card-header p-3">
+            <b class="p-3">Sản Phẩm Liên Quan</b>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <div class="row">
+                <div
+                  class="col-xs-4 col-sm-4 col-md-4"
+                  ng-repeat="sp in danhSachSP | limitTo : 3"
+                >
+                  <div class="anh">
+                    <a href="#/details/{{sp.id}}"
+                      ><img src="{{sp.img}}" class="card-img-top" alt="..." />
+                    </a>
+                    <div class="card-body">
+                      <p class="card-text" style="text-align: center">
+                        <b style="color: #f16c52"
+                          >{{sp.gia_giam | number:0}}đ</b
+                        >
+                        <del style="color: grey"
+                          >{{sp.gia_goc | number:0}}đ</del
+                        >
+                      </p>
+
+                      <p style="text-align: center; color: grey">{{sp.ten}}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

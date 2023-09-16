@@ -1,0 +1,209 @@
+<section class="qlsanpham">
+  <div class="container pt-4">
+    <div class="row">
+      <div class="col-md-3 me-5 mb-4">
+        <div class="list-group" style="background-color: white">
+          <div class="card-header p-3">
+            <b class="p-3">Quản Lý Sản Phẩm</b>
+          </div>
+          <a
+            class="list-group-item list-group-item-action text-secondary"
+            aria-current="true"
+            style="text-decoration: none"
+            href="#/qlsp"
+          >
+            Quản Lý Product
+          </a>
+          <a
+            class="list-group-item list-group-item-action text-secondary"
+            style="text-decoration: none"
+            href="#/qllsp"
+            >Quản Lý Category</a
+          >
+        </div>
+      </div>
+      <div class="col-md-8 mb-4" style="background-color: white">
+        <div class="section-title mt-3">
+          <h4 style="text-align: center; color: #f16c52">Quản Lý Sản Phẩm</h4>
+        </div>
+        <div class="row">
+          <div class="col-md-7">
+            <div class="form-controls ms-5">
+              <input type="value" required="" ng-model="formSanPham.ten" />
+              <label>
+                <span style="transition-delay: 0ms">N</span
+                ><span style="transition-delay: 50ms">a</span
+                ><span style="transition-delay: 100ms">m</span
+                ><span style="transition-delay: 150ms">e</span>
+              </label>
+            </div>
+            <div class="form-controls ms-5">
+              <input type="value" required="" ng-model="formSanPham.gia_goc" />
+              <label>
+                <span style="transition-delay: 0ms">C</span
+                ><span style="transition-delay: 50ms">o</span
+                ><span style="transition-delay: 100ms">s</span
+                ><span style="transition-delay: 150ms">t</span>
+              </label>
+            </div>
+            <div class="form-controls ms-5">
+              <input type="value" required="" ng-model="formSanPham.gia_giam" />
+              <label>
+                <span style="transition-delay: 0ms">R</span
+                ><span style="transition-delay: 50ms">e</span
+                ><span style="transition-delay: 100ms">d</span
+                ><span style="transition-delay: 150ms">u</span
+                ><span style="transition-delay: 200ms">c</span
+                ><span style="transition-delay: 200ms">e</span
+                ><span style="transition-delay: 250ms">d</span>
+                <span style="transition-delay: 0ms">P</span
+                ><span style="transition-delay: 50ms">r</span
+                ><span style="transition-delay: 100ms">i</span
+                ><span style="transition-delay: 150ms">c</span
+                ><span style="transition-delay: 200ms">e</span>
+              </label>
+            </div>
+            <div class="form-controls ms-5">
+              <input type="value" required="" />
+              <label>
+                <span style="transition-delay: 0ms">D</span
+                ><span style="transition-delay: 50ms">e</span
+                ><span style="transition-delay: 100ms">s</span
+                ><span style="transition-delay: 150ms">c</span
+                ><span style="transition-delay: 200ms">r</span
+                ><span style="transition-delay: 200ms">i</span
+                ><span style="transition-delay: 250ms">b</span
+                ><span style="transition-delay: 0ms">e</span>
+              </label>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="gallery mt-5">
+              <img src="/img/cam.jpg" alt="One" />
+              <img src="/img/nho.jpg" alt="Two" />
+              <img src="/img/dao.jpg" alt="Three" />
+              <img src="/img/dau.jpg" alt="Four" />
+            </div>
+          </div>
+        </div>
+        <div class="mb-3 row ms-3">
+          <label class="col-sm-2 col-form-label">Category</label>
+
+          <div class="col-sm-5">
+            <select class="form-select" ng-model="formSanPham.category">
+              <option value="" selected>Choose category</option>
+              <option
+                ng-repeat="category in danhSachCategory"
+                value="{{category.ten}}"
+              >
+                {{category.ten}}
+              </option>
+            </select>
+          </div>
+        </div>
+        <!-- <div class="mb-3 row ms-3">
+          <label class="col-sm-2 col-form-label">Image</label>
+          <div class="col-sm-7">
+            <div class="input-group mb-3">
+              <input
+                type="file"
+                class="form-control"
+                ng-model="formSanPham.img"
+                id="inputGroupFile02"
+              />
+              <label class="input-group-text" for="inputGroupFile02"
+                >Upload</label
+              >
+            </div>
+          </div>
+        </div> -->
+        <div class="mb-3 row ms-3">
+          <label class="col-sm-2 col-form-label">Image</label>
+          <div class="col-sm-7">
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control"
+                ng-model="formSanPham.img"
+                id="inputGroupFile02"
+              />
+            </div>
+          </div>
+        </div>
+
+        <button
+          ng-click="addSP($event)"
+          type="button"
+          class="btn btn-outline-success"
+        >
+          ADD
+        </button>
+        <button
+          ng-click="updateSP($event)"
+          type="button"
+          class="btn btn-outline-success"
+        >
+          UPDATE
+        </button>
+        <table class="table table-striped mt-3">
+          <thead>
+            <tr class="table-warning">
+              <th scope="col">STT</th>
+              <th scope="col">Image</th>
+              <th scope="col">Name</th>
+              <th scope="col">Cost</th>
+              <th scope="col">Reduced Price</th>
+              <th scope="col">Category</th>
+              <th scope="col">Action</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="sp in danhSachSP">
+              <td>{{$index+1}}</td>
+              <td><img src="{{sp.img}}" width="100px" alt="" /></td>
+              <td>{{sp.ten}}</td>
+              <td>{{sp.gia_goc | number:0}}</td>
+              <td>{{sp.gia_giam | number:0}}</td>
+              <td>{{sp.category}}</td>
+              <td>
+                <p style="text-align: center">
+                  <a
+                    id="bottone5"
+                    href="#san-pham/delete/{{sp.id}}"
+                    class="btn"
+                    ng-click="deleteSP($event,$index)"
+                    style="background-color: #d9e8d8; color: #777777"
+                    title="Delete"
+                  >
+                    <i
+                      class="fa-solid fa-trash me-2"
+                      style="color: #777777"
+                    ></i>
+                  </a>
+                </p>
+              </td>
+              <td>
+                <p style="text-align: center">
+                  <a
+                    id="bottone5"
+                    href="#san-pham/details/{{sp.id}}"
+                    class="btn"
+                    ng-click="detailsProduct($event,$index)"
+                    style="background-color: #d9e8d8; color: #777777"
+                  >
+                    <i
+                      class="fa-solid fa-circle-info me-2"
+                      style="color: #777777"
+                    ></i>
+                    DETAIL
+                  </a>
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
